@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-image: url("assets/images/iss-back.jpg");
+}
+
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#map {
+    height: 600px;
+    width: 900px;
+    box-shadow: 0 0 30px 8px #FFFFFF;
+}
